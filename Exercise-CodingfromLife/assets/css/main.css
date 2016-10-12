@@ -1,0 +1,233 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: purple;
+	animation-name: body;
+    animation-duration: 4s;
+    z-index:0;
+}
+@keyframes body {
+    from {background-color: purple;}
+    to {background-color: black;}
+
+}
+
+#canvas {
+	width: 900px;
+	height: 600px;
+	margin: 100px auto;
+	background: gray;
+	position: absolute;
+	 
+}
+
+#table {
+    width: 700px;
+    height: 100px;
+    background: yellow;
+    
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+
+    transform: skew(20deg);
+
+    z-index: 1;
+}
+
+#mat {
+	border-bottom: 70px solid blue;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	height: 0;
+	width: 300px;
+
+
+	position: absolute;
+	bottom: 40px;
+	left: 300px;
+	z-index: 2;
+}
+
+apple-shadow {
+	width: 30px;
+	height: 12px;
+	background: #0a7703;
+	position: absolute;
+	bottom: 74px;
+	left: 450px;
+	
+	z-index: 3;
+	filter: blur(8px);
+
+	animation-name: shadow;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+
+#apple {
+	display: block;
+	width: 38px;
+	height: 31px;
+	background-color: orange;
+	position: absolute;
+	bottom: 80px;
+	left: 450px;
+	border-radius: 50% 50% 50% 50% / 50% 40% 60% 60%;
+   
+    z-index: 10;
+}
+
+#apple-branch {
+	display:block;
+   width: 3px;
+   height: 8px;
+   background-color: orange;
+   position: absolute;
+	bottom: 108px;
+	left: 465px;
+   
+   z-index: 5;
+
+}
+
+
+#cherry-shadow {
+	width: 10px;
+	height: 8px;
+	background: #0a7703;
+	position: absolute;
+	bottom: 60px;
+	left: 455px;
+	
+	z-index: 3;
+	filter: blur(5px);
+
+	animation-name: shadow;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+
+#candle-shadow {
+	width: 40px;
+	height: 12px;
+	background: #0a7703;
+	position: absolute;
+	bottom: 90px;
+	left: 400px;
+	
+	z-index: 4;
+	filter: blur(8px);
+
+	animation-name: shadow;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+
+#skull-shadow {
+	width: 90px;
+	height: 8px;
+	background: #0a7703;
+	position: absolute;
+	bottom: 90px;
+	left: 500px;
+	
+	z-index: 3;
+	filter: blur(8px);
+
+	animation-name: shadow;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+
+}
+
+@keyframes shadow {
+	0%{
+		transform: translateX(0px) scaleX(1);
+	}
+	50%{
+		transform: translateX(-15px) scaleX(2);
+	}
+	100%{
+		transform: translateX(0px) scaleX(1);
+	}
+
+}
+
+#cherry {
+	display:block;
+   width: 15px;
+   height: 12px;
+   background-color: #6f0303;
+   position: absolute;
+	bottom: 60px;
+	left: 450px;
+   border-radius: 50%  50%  50%  50%  / 30%   40%   60%  60%;
+   z-index: 6;
+
+}
+
+#candle {
+	display:block;
+   width: 40px;
+   height: 80px;
+   background-color: #f7f2bb;
+   position: absolute;
+	bottom: 90px;
+	left: 400px;
+   border-radius: 50% / 10%;
+   z-index: 5;
+
+}
+
+#candle-fire {
+	display:block;
+   width: 10px;
+   height: 15px;
+   background-color:yellow;
+   position: absolute;
+	bottom: 165px;
+	left: 418px;
+   border-radius: 50% / 50%;
+   z-index: 6;
+
+    animation-name: candle-fire;
+    animation-duration: 4s;
+}
+
+
+@keyframes candle-fire {
+    from {background-color: yellow;}
+    to {background-color: red;}
+}
+
+
+
+#skull {
+  display:block;
+  width: 90px;
+  height: 80px;
+  background-color: #efeddb;
+  position: absolute;
+	bottom: 90px;
+	left: 500px;
+   border-radius: 90%  60%  50%  50%  / 90%   60%   30%  10%;
+   z-index: 7;
+}
+
+#skull-eye {
+  display:block;
+  width: 15px;
+  height: 15px;
+  background-color: black;
+  position: absolute;
+	bottom: 120px;
+	left: 520px;
+   border-radius: 50%  50%  50%  50%  / 50%   60%   50%  50%;
+   z-index: 8;
+}
