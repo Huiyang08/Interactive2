@@ -12,15 +12,7 @@ body {
     from {background-color: purple;}
     to {background-color: black;}
 
-}
-
-#canvas {
-	width: 900px;
-	height: 600px;
-	margin: 100px auto;
-	background: gray;
-	position: absolute;
-	 
+ 
 }
 
 #table {
