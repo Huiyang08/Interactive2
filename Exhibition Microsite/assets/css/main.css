@@ -1,0 +1,28 @@
+/* reset */
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* type */
+
+body {
+    background: gray;
+    font-family: arial, helvetica, sans-serif;
+    text-align: left;
+    font-size: 45px;
+    
+    overflow-x: hidden;
+
+}
+
+/* structure */
+
+#container {
+	width: 900px;
+	padding: 100px 30px;
+	margin: auto;
+	font-weight: 300;
+    color: white;
+}
