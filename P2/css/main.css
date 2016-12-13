@@ -4,12 +4,13 @@
 
 body {
   background: transparent;
-  width:800px;
-  height:1500px;
-  animation-name: body;
+  width:1024px;
+  height:1224px;
   z-index:0;
 
-} 
+}
+
+/*white background*/ 
 
 body.white {
     background: white;
@@ -57,12 +58,12 @@ body.white #rectangleS3 {
     border-bottom: 60px solid white;
 }
 
-
 body.white #eggU1 {
     border-bottom: 160px solid white;
 }
 
 
+/*Lightgray background*/ 
 
 body.lightgray {
     background: lightgray;
@@ -121,8 +122,7 @@ body.lightgray #eggU1 {
     border-bottom: 160px solid lightgray;
 }
 
-
-
+/*Drakgray background*/
 
 body.darkgray {
     background: darkgray;
@@ -176,14 +176,12 @@ body.darkgray #eggS3 {
     border-bottom: 80px solid darkgray;
 }
 
-
 body.darkgray #eggU1 {
     border-bottom: 160px solid darkgray;
 }
 
 
-
-
+/*gray background*/
 
 body.gray {
     background: gray;
@@ -242,15 +240,7 @@ body.gray #eggU1 {
 }
 
 
-
-
-
-
-
-
-
-
-
+/*A*/
 #parallelogram {
     width: 30px;
     height: 200px;
@@ -289,6 +279,7 @@ body.gray #eggU1 {
             z-index:1;
 }
 
+/*B*/
 #trapezoid {
     border-bottom: 30px solid gray;
     border-left: 20px solid transparent;
@@ -328,6 +319,7 @@ body.gray #eggU1 {
 transform: rotate(270deg);
 
 }
+
 #eggB {
    display:block;
    width: 95px;
@@ -355,6 +347,7 @@ transform: rotate(270deg);
    transform: rotate(270deg);
 
 }
+
 #eggB1 {
    display:block;
    width: 95px;
@@ -379,6 +372,8 @@ transform: rotate(270deg);
               left:324.5px;
               z-index:3;
 }
+
+/*C*/
 
 #oval {
     width: 150px;
@@ -415,6 +410,7 @@ transform: rotate(270deg);
               left:535px;
               z-index:2;
 }
+
 #trapezoidC {
     border-bottom: 60px solid white;
     border-left: 60px solid transparent;
@@ -427,6 +423,8 @@ transform: rotate(270deg);
               left:526px;
               z-index:4;
 }
+
+/*D*/
 
 #trapezoid3 {
     border-bottom: 30px solid gray;
@@ -478,6 +476,8 @@ transform: rotate(270deg);
               left:694.5px;
               z-index:3;
 }
+
+/*E*/
 
 #trapezoidE {
     border-bottom: 30px solid gray;
@@ -589,6 +589,8 @@ transform: rotate(270deg);
               z-index:0;
 }
 
+/*F*/
+
 #rectangleF{
     width: 114px;
     height: 20px;
@@ -662,6 +664,7 @@ transform: rotate(270deg);
               z-index:2
 }
 
+/*G*/
 
 #ovalG {
     width: 150px;
@@ -760,6 +763,7 @@ transform: rotate(270deg);
             z-index:4;
 }
 
+/*H*/
 
 #rectangleH{
     width: 30px;
@@ -831,6 +835,8 @@ transform: rotate(270deg);
             z-index:3;
 }
 
+/*I*/
+
 #rectangleI{
     width: 20px;
     height: 190px;
@@ -880,7 +886,7 @@ transform: rotate(270deg);
             z-index:3;
 }
 
-
+/*J*/
 #eggJ {
    display:block;
    width: 114px;
@@ -894,6 +900,7 @@ transform: rotate(270deg);
              left:686px;
              z-index:1;
 }
+
 #eggJ1 {
    display:block;
    width: 52px;
@@ -918,6 +925,7 @@ transform: rotate(270deg);
             left:680px;
             z-index:4;
 }
+
 #rectangleJ1{
     width: 30px;
     height: 100px;
@@ -928,9 +936,6 @@ transform: rotate(270deg);
             left:770px;
             z-index:4;
 }
-
-
-
 
 #eggJ2 {
    display:block;
@@ -945,6 +950,7 @@ transform: rotate(270deg);
              left:695px;
              z-index:0;
 }
+
 #eggJ3 {
    display:block;
    width: 52px;
@@ -969,6 +975,7 @@ transform: rotate(270deg);
             left:689px;
             z-index:0;
 }
+
 #rectangleJ3{
     width: 30px;
     height: 100px;
@@ -980,18 +987,7 @@ transform: rotate(270deg);
             z-index:0;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*K*/
 
 #rectangleK{
     width: 20px;
@@ -1015,6 +1011,7 @@ transform: rotate(270deg);
               left:861px;
               z-index:3;
 }
+
 #trapezoidK1 {
     border-bottom: 15px solid darkgray;
     border-left: 10px solid transparent;
@@ -1026,6 +1023,7 @@ transform: rotate(270deg);
               left:857px;
               z-index:3;
 }
+
 #parallelogramK1 {
   width: 19px;
   height: 10px;
@@ -1038,6 +1036,7 @@ transform: rotate(270deg);
             left:893px;
             z-index:3;
 }
+
 #trapezoidK2 {
     border-bottom: 30px solid gray;
     border-left: 20px solid transparent;
@@ -1049,6 +1048,7 @@ transform: rotate(270deg);
               left:878px;
               z-index:2;
 }
+
 #rectangleK1 {
     width: 150px;
     height: 30px;
@@ -1061,8 +1061,7 @@ transform: rotate(270deg);
               z-index:0;
 }
 
-
-
+/*L*/
 #rectangleL{
     width: 20px;
     height: 190px;
@@ -1073,6 +1072,7 @@ transform: rotate(270deg);
             left:1075px;
             z-index:3;
 }
+
 #trapezoidL {
     border-bottom: 15px solid darkgray;
     border-left: 10px solid transparent;
@@ -1085,6 +1085,7 @@ transform: rotate(270deg);
               left:1051px;
               z-index:3;
 }
+
 #trapezoidL1 {
     border-bottom: 15px solid darkgray;
     border-left: 10px solid transparent;
@@ -1096,6 +1097,7 @@ transform: rotate(270deg);
               left:1047px;
               z-index:3;
 }
+
 #parallelogramL1 {
   width: 19px;
   height: 10px;
@@ -1108,6 +1110,7 @@ transform: rotate(270deg);
             left:1083px;
             z-index:3;
 }
+
 #rectangleL1{
     width: 30px;
     height: 140px;
@@ -1119,8 +1122,7 @@ transform: rotate(270deg);
             z-index:2;
 }
 
-
-
+/*M*/
 #rectangleM{
     width: 30px;
     height: 200px;
@@ -1164,6 +1166,7 @@ transform: rotate(270deg);
              left: 1370px;
              z-index:4;
 }
+
 #rectangleM2{
     width: 30px;
     height: 10px;
@@ -1174,7 +1177,7 @@ transform: rotate(270deg);
             z-index:4;
 }
 
-
+/*N*/
 
 #rectangleN{
     width: 30px;
@@ -1186,6 +1189,7 @@ transform: rotate(270deg);
             left:112px;
             z-index:3;
 }
+
 #rectangleN1{
     width: 30px;
     height: 200px;
@@ -1195,6 +1199,7 @@ transform: rotate(270deg);
             left:240px;
             z-index:2;
 }
+
 #parallelogramN {
     width: 30px;
     height: 200px;
@@ -1208,7 +1213,7 @@ transform: rotate(270deg);
              z-index:4;
 }
 
-
+/*O*/
 
 #ovalO {
     width: 190px;
@@ -1222,6 +1227,7 @@ transform: rotate(270deg);
               left:310px;
               z-index:0;
 }
+
 #ovalO1 {
     width: 140px;
     height: 160px;
@@ -1235,8 +1241,7 @@ transform: rotate(270deg);
               z-index:3;
 }
 
-
-
+/*P*/
 
 #trapezoidP{
     border-bottom: 30px solid gray;
@@ -1250,6 +1255,7 @@ transform: rotate(270deg);
               left:496px;
               z-index:2;
 }
+
 #trapezoidP1{
     border-bottom: 30px solid gray;
     border-left: 20px solid transparent;
@@ -1262,6 +1268,7 @@ transform: rotate(270deg);
               left:496px;
               z-index:2;
 }
+
 #eggP {
    display:block;
    width: 100px;
@@ -1274,6 +1281,7 @@ transform: rotate(270deg);
              z-index:1;
    transform: rotate(270deg);
 }
+
 #eggP1 {
    display:block;
    width: 100px;
@@ -1288,6 +1296,8 @@ transform: rotate(270deg);
 
 }
 
+/*Q*/
+
 #ovalQ {
     width: 190px;
     height: 210px;
@@ -1300,6 +1310,7 @@ transform: rotate(270deg);
               left:695px;
               z-index:3;
 }
+
 #ovalQ1 {
     width: 140px;
     height: 160px;
@@ -1312,6 +1323,7 @@ transform: rotate(270deg);
               left:720px;
               z-index:3;
 }
+
 #rectangleQ{
     width: 30px;
     height: 100px;
@@ -1324,6 +1336,7 @@ transform: rotate(270deg);
             z-index:3;
 }
 
+/*R*/
 
 #trapezoidR{
     border-bottom: 30px solid gray;
@@ -1337,6 +1350,7 @@ transform: rotate(270deg);
               left:896px;
               z-index:3;
 }
+
 #trapezoidR1{
     border-bottom: 30px solid gray;
     border-left: 20px solid transparent;
@@ -1349,6 +1363,7 @@ transform: rotate(270deg);
               left:896px;
               z-index:3;
 }
+
 #eggR {
    display:block;
    width: 100px;
@@ -1361,6 +1376,7 @@ transform: rotate(270deg);
              z-index:2;
    transform: rotate(270deg);
 }
+
 #eggR1 {
    display:block;
    width: 100px;
@@ -1373,6 +1389,7 @@ transform: rotate(270deg);
              z-index:1;
    transform: rotate(270deg);
 }
+
 #parallelogramR {
     width: 30px;
     height: 115px;
@@ -1386,7 +1403,7 @@ transform: rotate(270deg);
              z-index:0;
 }
 
-
+/*S*/
 
 #eggS {
    display:block;
@@ -1401,6 +1418,7 @@ transform: rotate(270deg);
              left:1116px;
              z-index:1;
 }
+
 #eggS1 {
    display:block;
    width: 100px;
@@ -1428,6 +1446,7 @@ transform: rotate(270deg);
              left:1116px;
              z-index:1;
 }
+
 #eggS3 {
    display:block;
    width: 100px;
@@ -1441,6 +1460,7 @@ transform: rotate(270deg);
              left:1142px;
              z-index:2;
 }
+
 #rectangleS{
     width: 50px;
     height: 70px;
@@ -1452,6 +1472,7 @@ transform: rotate(270deg);
             left:1230px;
             z-index:3;
 }
+
 #rectangleS1{
     width: 50px;
     height: 60px;
@@ -1463,6 +1484,7 @@ transform: rotate(270deg);
             left:1100px;
             z-index:3;
 }
+
 #parallelogramS {
     width: 30px;
     height: 60px;
@@ -1475,8 +1497,6 @@ transform: rotate(270deg);
              left: 1178px;
              z-index:5;
 }
-
-
 
 #eggS4 {
    display:block;
@@ -1491,6 +1511,7 @@ transform: rotate(270deg);
              left:1126px;
              z-index:1;
 }
+
 #eggS5 {
    display:block;
    width: 100px;
@@ -1518,6 +1539,7 @@ transform: rotate(270deg);
              left:1126px;
              z-index:1;
 }
+
 #eggS7 {
    display:block;
    width: 100px;
@@ -1531,6 +1553,7 @@ transform: rotate(270deg);
              left:1162px;
              z-index:0;
 }
+
 #rectangleS2{
     width: 50px;
     height: 70px;
@@ -1542,6 +1565,7 @@ transform: rotate(270deg);
             left:1240px;
             z-index:0;
 }
+
 #rectangleS3{
     width: 50px;
     height: 60px;
@@ -1566,8 +1590,7 @@ transform: rotate(270deg);
              z-index:1;
 }
 
-
-
+/*T*/
 
 #rectangleT {
 	width: 160px;
@@ -1578,6 +1601,7 @@ transform: rotate(270deg);
 	left: 1285px;
 	z-index:4;
 }
+
 #rectangleT1{
     width: 20px;
     height: 190px;
@@ -1588,6 +1612,7 @@ transform: rotate(270deg);
             left:1347px;
             z-index:3;
 }
+
 #trapezoidT {
     border-bottom: 15px solid darkgray;
     border-left: 10px solid transparent;
@@ -1600,6 +1625,7 @@ transform: rotate(270deg);
               left:1323px;
               z-index:3;
 }
+
 #trapezoidT1 {
     border-bottom: 15px solid darkgray;
     border-left: 10px solid transparent;
@@ -1611,6 +1637,7 @@ transform: rotate(270deg);
               left:1319px;
               z-index:3;
 }
+
 #parallelogramT1 {
   width: 19px;
   height: 10px;
@@ -1624,9 +1651,7 @@ transform: rotate(270deg);
             z-index:3;
 }
 
-
-
-
+/*U*/
 
 #eggU {
    display:block;
@@ -1641,6 +1666,7 @@ transform: rotate(270deg);
              left:116px;
              z-index:1;
 }
+
 #eggU1 {
    display:block;
    width: 100px;
@@ -1668,6 +1694,7 @@ transform: rotate(270deg);
              left:126px;
              z-index:0;
 }
+
 #eggU3 {
    display:block;
    width: 100px;
@@ -1682,10 +1709,7 @@ transform: rotate(270deg);
              z-index:0;
 }
 
-
-
-
-
+/*V*/
 
 #parallelogramV {
   width: 30px;
@@ -1700,6 +1724,7 @@ transform: rotate(270deg);
             left:352px;
             z-index:4;
 }
+
 #parallelogramV1 {
   width: 30px;
   height: 195px;
@@ -1725,6 +1750,7 @@ transform: rotate(270deg);
               left:314.5px;
               z-index:3;
 }
+
 #trapezoidV1 {
     border-bottom: 10px solid darkgray;
     border-left: 11px solid transparent;
@@ -1737,6 +1763,7 @@ transform: rotate(270deg);
               left:347px;
               z-index:3;
 }
+
 #parallelogramV2 {
   width: 30px;
   height: 14px;
@@ -1750,8 +1777,7 @@ transform: rotate(270deg);
             z-index:3;
 }
 
-
-
+/*W*/
 
 #parallelogramW {
   width: 30px;
@@ -1766,6 +1792,7 @@ transform: rotate(270deg);
             left:552px;
             z-index:4;
 }
+
 #parallelogramW1 {
   width: 30px;
   height: 195px;
@@ -1791,6 +1818,7 @@ transform: rotate(270deg);
               left:519px;
               z-index:4;
 }
+
 #trapezoidW1 {
     border-bottom: 7px solid darkgray;
     border-left: 11px solid transparent;
@@ -1803,6 +1831,7 @@ transform: rotate(270deg);
               left:543px;
               z-index:4;
 }
+
 #parallelogramW2 {
   width: 30px;
   height: 12px;
@@ -1815,7 +1844,6 @@ transform: rotate(270deg);
             left:530px;
             z-index:3;
 }
-
 
 #parallelogramW3 {
   width: 30px;
@@ -1830,6 +1858,7 @@ transform: rotate(270deg);
             left:706px;
             z-index:4;
 }
+
 #parallelogramW4 {
   width: 30px;
   height: 195px;
@@ -1843,6 +1872,7 @@ transform: rotate(270deg);
             left:655px;
             z-index:1;
  }
+ 
  #trapezoidW2 {
     border-bottom: 7px solid darkgray;
     border-left: 11px solid transparent;
@@ -1854,6 +1884,7 @@ transform: rotate(270deg);
               left:662px;
               z-index:4;
 }
+
 #trapezoidW3 {
     border-bottom: 7px solid darkgray;
     border-left: 11px solid transparent;
@@ -1866,6 +1897,7 @@ transform: rotate(270deg);
               left:638.5px;
               z-index:4;
 }
+
 #parallelogramW5 {
   width: 30px;
   height: 12px;
@@ -1879,10 +1911,7 @@ transform: rotate(270deg);
             z-index:3;
 }
 
-
-
-
-
+/*X*/
 
 #parallelogramX {
   width: 30px;
@@ -1897,6 +1926,7 @@ transform: rotate(270deg);
             left:872px;
             z-index:4;
 }
+
 #parallelogramX1 {
   width: 30px;
   height: 195px;
@@ -1922,6 +1952,7 @@ transform: rotate(270deg);
               left:812px;
               z-index:4;
 }
+
 #trapezoidX1 {
     border-bottom: 12px solid darkgray;
     border-left: 11px solid transparent;
@@ -1934,6 +1965,7 @@ transform: rotate(270deg);
               left:874px;
               z-index:3;
 }
+
 #parallelogramX2 {
   width: 30px;
   height: 15px;
@@ -1947,12 +1979,7 @@ transform: rotate(270deg);
             z-index:3;
 }
 
-
-
-
-
-
-
+/*Y*/
 
 #parallelogramY {
   width: 30px;
