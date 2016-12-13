@@ -33,34 +33,34 @@ body {
 }
 
 #container {
+    position: relative;
+    display:block;
+    padding-left: 160pt;
     margin-right: auto;
-    padding-left:100;
+    width: 100vw;
     height: 100vh;
     font-family: roboto;
     font-weight: bold;
     overflow: auto;
-    width: 825;
-    padding: 100px 100px;
-    margin: auto;
-    color: white;
+    overflow-x: auto;
+    overflow-y: auto;
 }
+
+
 
 #message {
     display: block;
-    position: absolute;
-    left:220;
+    padding-left: 220pt;
     margin-right: auto;
-    
 }
 
 #message, #message1, #message2, #message3, #message4, #message5, #message6, 
-#message7, #message8, #message9, #message10, #message11, #message12, #message13, 
-#message14, #message15, #message16, #message17, #message18{
+#message7 {
     position:absolute;
     height: 100vh;
     background: #F8F8FF;
     margin-right: auto;
-    margin-left:227;
+    margin-left:220;
     width: 760px;
     font-family: roboto;
     font-size: 30pt;
@@ -95,42 +95,7 @@ body {
 #message7 {
     left:700vw;
 }
-
-#message8 {
-    left:800vw;
-}
-
-#message9{
-    left:900vw;
-} 
-
-#message10{
-    left:1000vw;
-} 
-#message11{
-    left:1100vw;
-} 
-#message12{
-    left:1200vw;
-}
-#message13{
-    left:1300vw;
-}
-#message14{
-    left:1400vw;
-}
-#message15{
-    left:1500vw;
-}
-#message16{
-    left:1600vw;
-}
-#message17{
-    left:1700vw;
-}
-#message18{
-    left:1800vw;
-}
+    
 /*Box*/
 #outside, #outside2, #outside3, #outside4, #outside5, #outside6, #outside7, 
 #outside8, #outside9, #outside10, #outside11, #outside12, #outside13, #outside14, 
@@ -210,8 +175,6 @@ body {
 #outside18{
       left: 1800vw;
 }
-
-
 
 #inside, #inside2, #inside3, #inside4, #inside5, #inside6, #inside7, 
 #inside8, #inside9, #inside10, #inside11, #inside12, #inside13, #inside14, 
@@ -542,24 +505,10 @@ img.displayed18:hover {
 .bottom-link0{
     position: relative;
     margin: auto;
-    bottom:-30px;
+    bottom:-100px;
     width: 1450px;
     display: block;
 }
-
-.left-button{
-    position: absolute;
-    top:430pt;
-    right:80pt;
-    display:block;
-}
-
-/*.right-button{
-    position: absolute;
-    top:400pt;
-    right:80pt;
-    display:block;
-}*/
 
 .bottom-link0 img {
     width: 50px;
@@ -588,7 +537,7 @@ img.displayed18:hover {
     height: auto;
 }
 
-.left-button1, .left-button2, .left-button3, .left-button4, .left-button5, .left-button6, 
+ .left-button1, .left-button2, .left-button3, .left-button4, .left-button5, .left-button6, 
 .left-button7, .left-button8, .left-button9, .left-button10, .left-button11, .left-button12, 
 .left-button13, .left-button14, .left-button15, .left-button16, .left-button17, .left-button18
 {
@@ -608,6 +557,12 @@ img.displayed18:hover {
     height: auto;
 }
 
+.left-button{
+    position: absolute;
+    top:450pt;
+    right:80pt;
+    display:block;
+}
 
 /* basic hovers */
 a {
@@ -656,7 +611,7 @@ a:hover {
 }
 #image-2:hover {
     color: red;
-    cursor: url(../img/2.jpg), auto;
+    cursor: url(../img/5.jpg), auto;
 }
 
 #image-3 {
@@ -665,30 +620,6 @@ a:hover {
 #image-3:hover {
     color: red;
     cursor: url(../img/3.jpg), auto;
-}
-
-#image-6 {
-    color: white;
-}
-#image-6:hover {
-    color: red;
-    cursor: url(../img/6.jpg), auto;
-}
-
-#image-7 {
-    color: white;
-}
-#image-7:hover {
-    color: red;
-    cursor: url(../img/7.png), auto;
-}
-
-#image-8 {
-    color: white;
-}
-#image-8:hover {
-    color: red;
-    cursor: url(../img/8.png), auto;
 }
 
 /*tittles*/
@@ -743,5 +674,13 @@ h6{
 
   
 
+/* structure */
 
+#container {
+	width: 900px;
+	padding: 100px 30px;
+	margin: auto;
+	font-weight: 300;
+    color: white;
+}
 
